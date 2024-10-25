@@ -1,5 +1,5 @@
 <script lang="ts">
-import Member from '~/components/sub-components/member.vue';
+import Member from './sub-components/member.vue';
 export default {
     data() {
         return {

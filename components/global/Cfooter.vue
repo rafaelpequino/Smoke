@@ -5,10 +5,10 @@ export default {}
 <template>
     <footer id="footer">
         <div id="inside-footer">
-            <a href="#" class="link-img-footer">
+            <div class="link-img-footer">
                 <img src="/img/logo_smoke_footer.png"
                 alt="Logo do grupo 'Smoke' - Grupo do 2º semestre do curso de Engenharia de Computação do centro universitário Senac Santo Amaro">
-            </a>
+            </div>
         </div>
     </footer>
 </template>
@@ -31,6 +31,6 @@ div#inside-footer {
 
 .link-img-footer > img {
     width: 100%;
-    max-width: 300px
+    max-width: 200px
 }
 </style>

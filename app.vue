@@ -1,7 +1,6 @@
 <template>
   <div>
     <NuxtPage/>
-    
   </div>
 </template>
 
@@ -25,6 +24,7 @@ h2 {
   margin-bottom: 30px;
   font-size: 3rem;
   text-align: center;
+  line-height: 1em;
 }
 
 p {

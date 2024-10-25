@@ -9,12 +9,12 @@ export default {
 </script>
 
 <template>
-    <div class="member">
-        <a :href="'integrantes/' + user" class="member-img">
+    <RouterLink :to="'integrantes/' + user" class="member">
+        <div class="member-img">
             <img :src="'img/members/' + srcImg" :alt="'Foto do integrante ' + name">
-        </a>
+        </div>
         <h3>{{ name }}</h3>
-    </div>
+    </RouterLink>
 </template>
 
 <style lang="css" scoped>

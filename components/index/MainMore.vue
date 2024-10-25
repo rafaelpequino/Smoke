@@ -7,7 +7,7 @@ export default {}
         <div id="inside-main-more">
             <h2>Por dentro do Projeto</h2>
             <div class="proj-data">
-                <img src="/img/inside-proj/ai01.jpg" alt="Imagem exibindo o trabalho por trás do projeto">
+                <img src="/public/img/full-group.jpg" alt="Imagem exibindo o trabalho por trás do projeto">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nemo dolores dolor veniam inventore. Sint neque non deserunt! Recusandae, repellendus voluptatum odit enim esse assumenda soluta dolore doloribus deleniti hic.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque vitae nostrum earum unde autem ipsum in alias incidunt nulla necessitatibus omnis nemo repellat rem odio animi veritatis, esse quisquam.</p>
             </div>

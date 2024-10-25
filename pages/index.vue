@@ -1,10 +1,10 @@
 <script lang="ts">
-import Cheader from '~/components/Cheader.vue';
-import MainAbout from '~/components/MainAbout.vue';
-import MainGroup from '~/components/MainGroup.vue';
-import MainHome from '~/components/MainHome.vue';
-import MainMore from '~/components/MainMore.vue';
-import Cfooter from '~/components/Cfooter.vue';
+import Cheader from '~/components/global/Cheader.vue';
+import MainAbout from '~/components/index/MainAbout.vue';
+import MainGroup from '~/components/index/MainGroup.vue';
+import MainHome from '~/components/index/MainHome.vue';
+import MainMore from '~/components/index/MainMore.vue';
+import Cfooter from '~/components/global/Cfooter.vue';
 
 export default {
     methods: {

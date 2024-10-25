@@ -1,1 +1,0 @@
-export { default } from "file:///C:/Users/rafae/OneDrive/Documentos/Profissional/Smoke/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

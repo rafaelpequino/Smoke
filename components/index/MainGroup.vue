@@ -1,18 +1,11 @@
 <script lang="ts">
 import Member from './sub-components/member.vue';
+import MembersList from '~/js/members.json';
+
 export default {
     data() {
         return {
-            membersList: [
-                { name: "André Richard", user: "andre-richard", srcImg: "andre-richard.jpg" },
-                { name: "Fernando Martins", user: "fernando-martins", srcImg: "fernando-martins.jpg" },
-                { name: "Gustavo Nathan", user: "gustavo-nathan", srcImg: "gustavo-nathan.jpg" },
-                { name: "Higor Cabral", user: "higor-cabral", srcImg: "higor-cabral.jpg" },
-                { name: "Isabela Marques", user: "isabela-marques", srcImg: "isabela-marques.jpg" },
-                { name: "Matheus Roman", user: "matheus-roman", srcImg: "matheus-roman.jpg" },
-                { name: "Pablo Cremm", user: "pablo-cremm", srcImg: "pablo-cremm.jpg" },
-                { name: "Rafael Pequino", user: "rafael-pequino", srcImg: "rafael-pequino.jpg" }
-            ]
+            MembersList
         };
     },
     components: { Member }
@@ -24,7 +17,7 @@ export default {
         <div id="inside-main-group">
             <h2>Integrantes</h2>
             <div class="members">
-                <Member class="member" v-for="member in membersList" :name="member.name" :user="member.user" :srcImg="member.srcImg" />
+                <Member class="member" v-for="member in MembersList" :name="member.name" :user="member.user" :srcImg="member.srcImg" />
             </div>
         </div>
     </section>

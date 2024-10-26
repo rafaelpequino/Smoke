@@ -15,6 +15,14 @@ export default {
             });
         }
     },
+    Data() {
+        return {
+            array: [
+                "Pablo",
+                "Isa"
+            ]
+        }
+    },
     components: { Cheader, MainAbout, MainGroup, MainHome, MainMore, Cfooter }
 }
 </script>

@@ -1,0 +1,5 @@
+const MainAbout_vue_vue_type_style_index_0_scoped_67cfa270_lang = "section#main-about[data-v-67cfa270]{align-items:center;display:flex;justify-content:center;padding:50px 30px;width:100%}#inside-main-about[data-v-67cfa270]{max-width:1280px;width:100%}.div-about[data-v-67cfa270]{align-items:center;display:flex;gap:30px;justify-content:space-between;margin:50px 0;overflow:hidden;width:100%}.text-about>h3[data-v-67cfa270]{font-size:1.7rem;margin-bottom:20px}.img-about[data-v-67cfa270]{align-items:center;border-radius:50%;display:flex;height:400px;justify-content:center;min-width:400px;overflow:hidden;width:400px}.img-about>img[data-v-67cfa270]{width:100%}@media (max-width:999px){.img-about[data-v-67cfa270]{height:300px;min-width:300px;width:300px}}@media (max-width:750px){.div-about[data-v-67cfa270]{flex-direction:column}.div-about:nth-child(2)>.text-about[data-v-67cfa270]{order:2}}@media (max-width:400px){.img-about[data-v-67cfa270]{height:250px;min-width:250px;width:250px}}";
+export {
+  MainAbout_vue_vue_type_style_index_0_scoped_67cfa270_lang as default
+};
+//# sourceMappingURL=MainAbout-styles-1.mjs-Cm804_oB.js.map

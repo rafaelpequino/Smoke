@@ -7,21 +7,17 @@ export default {}
         <div id="inside-main-about">
             <div class="div-about">
                 <div class="img-about">
-                    <img src="/img/engineer.jpg" alt="Imagem gerada por A.I. mostrando um engenheiro construindo um carrinho eletrônico">
+                    <img src="https://www.robocarrace.com.br/wp-content/uploads/2023/11/carros-e1710431384328-1024x650.jpeg" alt="Imagem representativa da competição Robocar Race">
                 </div>
                 <div class="text-about">
-                    <h3>ACELERANDO O FUTURO DA TECNOLOGIA</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt sit necessitatibus repellat
-                        enim reprehenderit unde amet quasi placeat velit cupiditate id explicabo iste possimus iure
-                        voluptatibus similique, vitae optio. Provident!</p>
+                    <h3>SOBRE A COMPETIÇÃO ROBOCAR RACE</h3>
+                    <p>O RoboCar Race é uma corrida de veículos autônomos em escala e a proposta é reunir grupos de pesquisas e entusiastas na área da condução autônoma de veículos terrestres. <br/>“A proposta é reunir grupos de pesquisas e entusiastas na área da condução autônoma de veículos”</p>
                 </div>
             </div>
             <div class="div-about">
                 <div class="text-about">
-                    <h3>ACELERANDO O FUTURO DA TECNOLOGIA</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt sit necessitatibus repellat
-                        enim reprehenderit unde amet quasi placeat velit cupiditate id explicabo iste possimus iure
-                        voluptatibus similique, vitae optio. Provident!</p>
+                    <h3>O QUE SÃO CARRINHOS AUTÔNOMOS?</h3>
+                    <p>Carrinhos autônomos são veículos automatizados que se movem sem motorista, usando sensores, câmeras e inteligência artificial para navegar de forma segura e eficiente. Com aplicações em logística e entregas, eles ajudam a reduzir acidentes e otimizam o transporte de mercadorias em ambientes controlados e urbanos.</p>
                 </div>
                 <div class="img-about">
                     <img src="/img/car.jpg" alt="Imagem gerada por A.I. mostrando um carrinho eletrônico">
@@ -66,13 +62,12 @@ section#main-about {
     height: 400px;
     border-radius: 50%;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .img-about > img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media (max-width: 999px) {

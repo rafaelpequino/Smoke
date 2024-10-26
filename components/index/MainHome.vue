@@ -7,10 +7,8 @@ export default {}
         <div id="inside-main-home">
             <img src="/img/logo_smoke.png"
                 alt="Logo do grupo 'Smoke' - Grupo do 2º semestre do curso de Engenharia de Computação do centro universitário Senac Santo Amaro">
-            <h1>ACELERANDO O FUTURO DA TECNOLOGIA</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae recusandae voluptates, deleniti facilis
-                perferendis ea eius, sed nulla odio numquam reprehenderit nihil labore! Saepe sed non aperiam commodi
-                blanditiis obcaecati!</p>
+            <h1>CARRINHO AUTÔNOMO - ROBOCAR RACE</h1>
+            <p>Projeto concebido pelos alunos do 2º semestre do curso de Engenharia de Computação do Centro Universitário Senac Santo Amaro para a competição Robocar Race.</p>
             <a href="#">Saiba mais</a>
         </div>
     </section>
